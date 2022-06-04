@@ -1,0 +1,99 @@
+.landing-img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.landing h1{
+    position: absolute;
+    top: 50%;
+    left: 50;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+}
+.main img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main h1{
+    margin: 15px 0;
+}
+.box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 0 50px;
+}
+.profile-img{
+    width: 300px;
+    height:300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.profile{
+    background-color: darkgray;
+
+}
+.profile-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: beige;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.profile-name h1{
+    margin-top: 10px;
+}
+.box p{
+    font-size: 1.2rem;
+    margin-left: 100px;
+}
+.social{
+    margin-top: 15px;
+}
+.social a{
+    margin: 0 5px;
+}
+.profile h1{
+    text-align: center;
+    margin: 10px 0;
+}
+.sect{
+    display: flex;
+    justify-content: space-around;
+    align-items: centeras;
+}
+
+footer{
+    background-color: black;
+    padding: 15px;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
